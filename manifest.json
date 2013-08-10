@@ -1,0 +1,24 @@
+{
+  "name": "Go",
+  "description": "To use, type 'go' plus a short url slug into the Omnibox.",
+  "version": "0.0.1",
+  "icons": {
+    "16": "images/go-16.png",
+    "32": "images/go-32.png",
+    "48": "images/go-48.png",
+    "128": "images/go-128.png"
+  },
+  "options_page": "options.html",
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "omnibox": {
+    "keyword": "go"
+  },
+  "manifest_version": 2
+}

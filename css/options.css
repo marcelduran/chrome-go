@@ -1,0 +1,35 @@
+.demo-logo img {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.tagsinput {
+  height: auto;
+}
+
+.tagsinput .tag,
+.tagsinput .tag:hover {
+  padding: 10px;
+  cursor: auto;
+}
+
+#more-custom {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin-left: 0;
+}
+
+h3 {
+  margin-top: 25px;
+}
+
+body {
+  margin-bottom: 73px;
+}

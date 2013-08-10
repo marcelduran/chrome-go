@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Go</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/flat-ui.css">
+    <link rel="stylesheet" href="css/options.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="demo-headline">
+        <h1 class="demo-logo">
+          <img src="images/go-original.png">
+          Go
+          <small>Your OmniBox Go-To Tool</small>
+        </h1>
+      </div>
+
+      <h2>Help</h2>
+
+      <p>Create easy-to-remember custom short links then assign Go to use them from Chrome Omnibox</p>
+
+      <h2>Settings</h2>
+
+      <h3>Default Go URL</h3>
+      <input type="text" id="default-url" class="span6" placeholder="url e.g.: http://bar.com/%s" value="http://bit.ly/%s">
+
+      <h3>Custom Go Alternatives</h3>
+      <p class="palette-paragraph">Leave blank to delete</p>
+      <ul id="custom">
+        <li class="custom-item">
+          <input type="text" class="span2 custom-keyword" placeholder="keyword e.g.: foo">
+          <input type="text" class="span6 custom-url" placeholder="url e.g.: http://bar.com/%s">
+        </li>
+      </ul>
+      <button id="more-custom" class="tagsinput-add" title="add more custom Go alternatives"></button>
+
+      <h3>Recently Go Terms</h3>
+      <div id="cache" class="tagsinput"></div>
+      <button id="clear-cache" class="btn btn-large btn-block btn-danger">Clear</button>
+
+      <h3>All Set?</h3>
+      <button id="save" class="btn btn-large btn-block btn-primary">Save</button>
+
+    </div>
+
+    <script src="js/zepto.min.js"></script>
+    <script src="js/options.js"></script>
+  </body>
+</html>
